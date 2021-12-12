@@ -1,0 +1,182 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    height: 4px;
+ 
+}
+
+body .header{
+  padding: 10px 16px 11px;
+
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .container{
+  padding-top: 120px;
+}
+
+.header h1 h2{
+ 
+  position: absolute;
+  height: 60px;
+  left: 8.07%;
+  right: 58.82%;
+  top: calc(50% - 60px/2 - 343px);
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 28px;
+  
+  color: #101214;
+}
+.line{
+  /* top line */
+position: absolute;
+width: 100%;
+height: 4px;
+left: 0px;
+top: 0px;
+
+background: #101214;
+}
+.container{
+  width: 100%;
+} 
+.header .img-header .img{
+
+width: 79px;
+height: 79px;
+left: 950px;
+margin-left:70% ;
+margin-top:-5% ;
+transform: translateX(-50); 
+filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08)); 
+}
+.header h2{
+  color: #101214;
+  margin-top: 15px;
+}
+.container .description{
+  padding: 16px;
+  margin-top: 60px;
+  font-size: 7px;
+  line-height: 18px;
+  /* or 257% */
+letter-spacing: 2px;
+color: #73808D;
+}
+.box{
+  margin-top: 15px;
+}
+
+  .split-right .info{
+
+position: absolute;
+height: 558px;
+left: 68.4%;
+right: 8.07%;
+top: calc(88% - 569px/2 - 2px);
+height: 4px;
+font-family: Arial;
+font-size: 11px;
+line-height: 18px;
+/* or 164% */
+color: #73808D;
+
+  }
+  
+  .split-left { 
+   width: 62%;
+   padding: 7px;
+   float: left;
+   display: inline-block;
+   margin-top: -6px;
+  }
+  .box .year_company h5{
+    color: #73808D;
+  }
+  .education{
+    margin-top: 15px;
+  }
+  .education h5{
+    color: #73808D;
+  }
+  h2{
+    color: #73808D;
+  }
+  .skills, .knwoledge, .tools, .other-skills, .languages, .social{
+    margin-top: 15px;
+  }
+    .p
+    {
+    margin-top:145px;
+    }
+
+@media (max-width: 1000){
+  *{
+
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+.container .description {
+  padding: 16px;
+  margin-top: 5px;
+  font-size: 7px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #73808D;
+}
+   .split-right .info {
+    position: absolute;
+    height: 558px;
+    left: 68.4%;
+    right: 8.07%;
+    top: calc(55% - 569px/2 - 2px);
+    height: 4px;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 18px;
+    color: #73808D;
+}
+      .split-left {
+    
+        width: 62%;
+        padding: 7px;
+        float: left;
+        display: inline-block;
+        margin-top: -6px;
+       }
+
+    .container{
+      width: 100%;
+    } 
+    
+  body .header{
+   
+    padding: 10px 16px 11px;
+  
+}
+.skills, .knwoledge, .tools, .other-skills, .languages, .social{
+  margin-top: 15px;
+}
+    
+}
+  
+  
+  
+ 
